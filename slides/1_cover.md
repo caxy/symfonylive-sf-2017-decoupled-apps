@@ -8,3 +8,9 @@
 
 Note:
 Don't forget to breathe :)
+
+say hello! and thank you for coming.
+
+I'm a bit nervous... but REALLY excited to be talking today about my journey over the last few years into decoupled apps with symfony.
+
+So let's get started!

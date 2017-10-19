@@ -9,11 +9,38 @@
 - Currently the Senior Developer at Caxy
 - Currently geeking out over **React** + **Redux** // **Symfony** + **API Platform**
 
+Note:
+Well! I'm josh...
+
+i've worked in a lot of frameworks and languages for that 12 years... but i'm pretty much exclusively with symfony for the last almost 5 years
+
+my first symfony install was 2.1 - pretty excited about 4.0 by the way!
+
+currently i am the senior developer for caxy and i'm right now i'm investing most of my energy in leveraging the power of react and react 
+
+and symfony with api platform
+
+NEXT : so a little bit more about this caxy you keep hearing about
+
+
 ///
 
 ## CAXY IS NOT AN ABBREVIATION OR A TECH TERM.
 
 IT MEANS “RIBBIT” IN ANCIENT GREEK AND WAS OUR FOUNDER’S HIGH SCHOOL MASCOT.<br/> #themoreyouknow
+
+Note:
+CONTRARY to popular belief CAXY is NOT an abbreviation or a tech term!
+
+it's actually a more obscure reference... heh.
+
+it actually is ancient greek for the "ribbit" sound a frog makes...
+
+the tie in to tech is that our founder... mike lavista... went to school a suburb in illinois and their mascot was a frog... and yep you guessed it named caxy
+
+so there ya go! quiz is later.
+
+NEXT: on a more serious note... caxy is a web development agency
 
 ///
 
@@ -24,14 +51,37 @@ IT MEANS “RIBBIT” IN ANCIENT GREEK AND WAS OUR FOUNDER’S HIGH SCHOOL MASCO
 **Our mission:**<br/> Improve the digital world with products that our clients<br/> and their users love long after launch day
 
 Note:
-- Received Awards and Recognitions from Clutch.co, Acquia, Inc.5000 and others. 
-- Our clients work in a number of industries: Universities, Healthcare, Non-Profits, Financial Sectors, Startups, and more.
-- We are full service: Ideation, Content Strategy, UX, Design, Architecture, Development, Support
-- Our mission: improve the digital world with products that our clients and their users love long after launch day… and for some products to be the best they could be, we needed to think about doing something different - we needed to start building decoupled apps. 
+we built... pretty much anything... but USUALLY custom sites and applications... 
+
+and we build them for a number of industries and sectors.
+
+over the last couple of years we've specialize in non-profits, universities, and health care.
+
+We also have really exciting projects in the financial sector, in manufactoring, and our favorite ... of course... is the small start up with big ideas!
+
+we are a full service agency - so everything from ideation to content strategy, design to development and support - it's what we do!
+
+quick humble brag... we're pretty good at it! 
+
+we receive awards and recognitions every year...
+
+most recently we were recognized by clutch co as a top web development agency and top custom software development agency.
+
+and of course we appreciate the recognition.. but that's not the only reason we do this ...
+
+our mission at caxy is to Improve the digital world with products that our clients 
+and their users love long after launch day.
+
+And for some products, to be the best they could be... we had to think about doing something different.
+
+NEXT: We needed to start building decoupled apps..  
 
 ---
 
 # DECOUPLED APPS
+
+Note:
+So now the reason you're here! let's talk about decoupled apps!
 
 ///
 
@@ -41,14 +91,19 @@ In the context of this talk:
 
 **An application which has its front-end decoupled from its back-end,<br/> where the front-end interfaces with a back-end API**
 
-///
-
-##### Example
-
-A single-page application (SPA) built in React that interfaces with a REST API built in Symfony. 
-
 Note:
-A decoupled application in the context of this talk is an application which has a front-end that is completely decoupled from a back-end API. 
+First... what is a decoupled application?
+
+some of you may know and some of you may not. and there are a few ways to answer that question...
+
+but for the context of this talk... a decoupled app is an application which has its front-end decoupled from its back-end,
+where the front-end interfaces with a back-end API
+
+an example of this would be:
+
+A single-page application (SPA) built in React that interfaces with a REST API built in Symfony.
+
+but what does that mean? and why does that matter? ...
 
 ---
 
@@ -61,16 +116,24 @@ Single-page applications (SPAs) bring significant benefits that unlock capabilit
 
 Many are moving towards decoupled architectures and the future of the front-end technologies seem like they will continue down that path.
 
+NEXT: I could talk about a ton of them... but i'm going to focus on just a few for today...
+
 ///
 
 ### Advantages of Decoupling front-end & back-end
 
-- Front-end can be a SPA
+- Ability to build the Front-end as a SPA
 - Better performance & scalability
 - Develop faster
 - Improved deployments & infrastructure
 - Additional abstraction layer
-- Easier to test
+
+Note:
+- Ability to build the Front-end as a SPA
+- Better performance & scalability
+- Develop faster
+- Improved deployments & infrastructure
+- Additional abstraction layer
 
 ///
 
@@ -82,6 +145,15 @@ Many are moving towards decoupled architectures and the future of the front-end 
     - less server-side load
     - code splitting
 - Advanced front-end tooling
+
+Note:
+A key advantage of decoupled apps is the ability to build the front-end as a single-page application.
+
+Doing that prevents you from having to reload the page fully on each new page, which can be a really terrible user experience.
+
+The beauty of a single-page app is that you control what happens on the page while things are loading in the background.
+
+And directly with that comes better performance & scalability.
 
 ///
 
@@ -100,6 +172,8 @@ Thanks to having stateless user auth there's no need to implement shared PHP ses
 
 Since the back-end data is all accessed through the REST API over HTTP, back-end can utilize HTTP caching as needed.
 
+NEXT: Not only does the app get faster, but development can too!
+
 ///
 
 #### Develop faster
@@ -108,14 +182,11 @@ Since the back-end data is all accessed through the REST API over HTTP, back-end
 - Front-end developers work in familiar code and environment
 - Back-end developers work in familiar code and environment
 - Allows for rapid prototyping without writing code that will ultimately be scrapped
-- Front-end and back-end of features can be developed in parallel
 
 Note:
-Other items could be: 
-- less coupling = less regressions
-- Having an API on the back-end allows for additional clients in the future for example native mobile apps or exposing a public API.
-- Testing becomes much easier
-- Can rebuild the front-end without touching back-end or vise versa.
+First off, the front-end and back-end could technically be developed indepedently from the other, and in some cases even in parallel, as long as there's a well defined API interface.
+
+NEXT: In additional to development being smoother, deployments and managing infrastructure can too!
 
 ///
 
@@ -128,6 +199,8 @@ Other items could be:
 Note:
 Separate deploy pipelines: deployments become simpler and independent of each other.
 
+NEXT: Onto the last advantage i'm going to cover now!! 
+
 ///
 
 #### Additional abstraction layer
@@ -135,11 +208,3 @@ Separate deploy pipelines: deployments become simpler and independent of each ot
 - Front-end and back-end code completely separated
 - Can have different conventions and standards
 - Release front-end from the structures and opinions of the back-end
-
-///
-
-#### Testing
-
-- Modular components are much easier to test
-- Testing the back-end API
-- Integration testing between back-end and front-end

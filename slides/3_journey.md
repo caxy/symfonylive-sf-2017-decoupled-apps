@@ -1,24 +1,13 @@
 # OUR JOURNEY TO<br/> DECOUPLED APPS
 
-///
-
-## Starting point at Caxy
-
-- Caxy practices user-centered design
-- Caxy wants to create the best possible experience for the user
-- Decided to start building single-page applications
-- This required us to change how we build Symfony apps
-
 Note:
-At Caxy, we practice user-centered design and strive to provide the best possible experience for the user.
+Our journey to decoupled apps can really be defined by three key iterations.
 
-To be able to deliver on that initiative consistently, we needed to level-up our game on the front-end by building single-page applications.
+The first was our decision to build a single page app - which required a rest API.
 
-To accommodate developing SPAs, we needed to change the way we used Symfony.
-Instead of building the full web app in Symfony, we needed to build an API for the front-end to interface with.
+The second iteration was beefing up our REST API with HATEOAS.
 
-We had used FOSRestBundle and JMSSerializerBundle to handle AJAX calls on most of our Symfony projects and those worked well for us,
-so we decided we would work with those bundles to help built out the REST API of our first decoupled app. 
+Then the last iteration was jumping into API Platform. 
 
 ---
 
@@ -63,6 +52,10 @@ Note:
 - JMSSerializerBundle : Handles supporting JSON
 - NelmioCORSBundle : Handles CORS headers
 - NelmioApiDocBundle : Handles API Documentation
+
+So we went ahead with this stack and we ended up doing pretty well all things considered!
+
+NEXT: There were a few limitations we come across during development that I will share next. 
 
 ///
 

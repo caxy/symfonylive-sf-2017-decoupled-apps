@@ -77,7 +77,7 @@ It has machine-readable documentation of the API in the Hydra format.
 
 ---
 
-# Digger Deeper into API Platform
+# A (very) short intro to API Platform
 
 ///
 
@@ -189,16 +189,10 @@ class Book
 }
 </code></pre>
 
-///
-
-### Action Classes
-
-API Platform prefers action classes over typical Symfony controllers.
-
-Internally, API Platform implements the Action-Domain-Responder pattern (ADR), a web-specific refinement of MVC.
-
 Note:
-However, Symfony controllers can still be used and can work with API Platform.
+NEXT: Unfortunately, this is as deep into API platform we're going to go today...
+
+BUT! Don't fret, the documentation is actually really solid and it continues to get better and better.
 
 ///
 
