@@ -22,22 +22,6 @@ Create a CRUD API in minutes (I'm not even kidding!)
 
 It is able to create a full REST API with CRUD functionality from your PHP model classes. If using Doctrine, API Platform takes care of the rest.
 
-Note:
-**Features**
-
-- creating, retrieving, updating and deleting (CRUD) resources
-- data validation
-- pagination
-- filtering
-- sorting
-- a nice UI and machine-readable documentation (Swagger/OpenAPI, Hydra)
-- hypermedia/HATEOAS and content negotiation support (JSON-LD, HAL)
-- authentication (Basic HTTP, cookies as well as JWT and OAuth through extensions)
-- CORS headers
-- security (tested against OWASP recommendations)
-- HTTP caching
-- and basically everything needed to build modern APIs.
-
 ///
 
 ### Our REST API Requirements
@@ -50,13 +34,6 @@ The basic requirements for our REST APIs up until now were:
 - Basic CRUD for REST resources
 - API Documentation
 - HATEOAS
-
-Note:
-API Platform meets all of these requirements out of the box, and includes many more on top of it.
-
-For example, it supports JSON-LD (JSON for Linked Data).
-
-It has machine-readable documentation of the API in the Hydra format.
 
 ///
 
@@ -188,11 +165,6 @@ class Book
     // ...
 }
 </code></pre>
-
-Note:
-NEXT: Unfortunately, this is as deep into API platform we're going to go today...
-
-BUT! Don't fret, the documentation is actually really solid and it continues to get better and better.
 
 ///
 
