@@ -44,6 +44,40 @@ section.has-dark-background {
 	}
 }
 
+.reveal section {
+	img.logo-sflive {
+		width: 600px;
+		border: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+
+	.text-left {
+		text-align: left;
+	}
+
+	.row {
+		clear: both;
+
+		&:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+	}
+
+	.col-left {
+		width: 45%;
+		float: left;
+	}
+
+	.col-right {
+		width: 45%;
+		float: right;
+	}
+}
+
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {

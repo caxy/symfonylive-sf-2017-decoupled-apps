@@ -8,6 +8,31 @@
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
+.reveal section img.logo-sflive {
+  width: 600px;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
+
+.reveal section .text-left {
+  text-align: left; }
+
+.reveal section .row {
+  clear: both; }
+  .reveal section .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.reveal section .col-left {
+  width: 45%;
+  float: left; }
+
+.reveal section .col-right {
+  width: 45%;
+  float: right; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
