@@ -1,0 +1,64 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Varela+Round');
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #666;
+$headingColor: #174052;
+
+$mainFontSize: 42px;
+$mainFont: 'Varela Round', 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Montserrat', 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #2a76dd;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+	background:
+		url("https://s3-us-west-2.amazonaws.com/caxyinteractive/slides/slide-theme-logo.png")
+		97% 98% / 2.5% auto
+		no-repeat,
+		url("https://s3-us-west-2.amazonaws.com/caxyinteractive/slides/slide-theme-border-bottom.png")
+		bottom center / 100% auto
+		no-repeat
+		$backgroundColor;
+	border-top: 10px solid #D1042F;
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
